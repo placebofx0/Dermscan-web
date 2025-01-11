@@ -1,4 +1,6 @@
 <template>
+    <div class="py-10">
+
     <div class="text-gold font-semibold text-2xl md:text-center md:text-2xl target" 
                 v-motion
                 :initial="{ opacity:0, y: 100 }"
@@ -32,5 +34,6 @@
                 :duration="1800">
                     <solar />
                 </div>
-        </div>  
+        </div>
+    </div>  
 </template>

@@ -23,7 +23,7 @@
     <div>
         <div class=" h-[80rem] w-full relative target"  >
             <img src="@/assets/images/cover.png"
-                class="-z-50 py-50 absolute object-cover w-full h-full target" 
+                class="-z-50 py-50 absolute object-cover w-full h-full target justify-center" 
                 v-motion-fade-visible-once
                 :duration="600" />
                     <img
