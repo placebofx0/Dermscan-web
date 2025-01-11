@@ -1,6 +1,6 @@
 <template>
     <div
-        class="w-full px-3 py-9 bg-white flex space-x-3.5 md:justify-center md:flex-col md:items-center md:space-x-0">
+        class="w-full px-3 py-9 flex space-x-3.5 md:justify-center md:flex-col md:items-center md:space-x-0">
         <div class="flex-none">
             <img
                 src="@/assets/images/efficacy.png"

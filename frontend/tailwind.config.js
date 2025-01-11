@@ -50,6 +50,9 @@ module.exports = {
         fadeOut: 'fadeOut 1.5s ease-out',
         fadeUp: '1s ease-in-out forwards',
       },
+      media: {
+        
+      }
     },
   },
   plugins: [
