@@ -9,7 +9,7 @@
             class="bg-cover w-auto h-[300px] bg-center"
         >
         </img>
-        <h4 class="font-semibold text-primary pt-3 px-2.5 md:text-lg">Solar Test (ยกเลิกบริการ)</h4>
+        <h4 class="font-semibold text-red pt-3 px-2.5 md:text-lg">Solar Test (ยกเลิกบริการ)</h4>
         <p class="text-xs px-2.5 pt-2 md:text-base">รายละเอียดเพิ่มเติม...</p>
         <div class="relative flex p-2.5 h-auto">
             <BaseLink :to="`/solartest`" class="absolute p-2.5 right-[10px]">ข้อมูลเพิ่มเติม</BaseLink>

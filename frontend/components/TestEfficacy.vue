@@ -10,7 +10,7 @@
         >
         </img>
         <h4 class="font-semibold text-primary pt-3 px-2.5 md:text-lg">Efficacy Test</h4>
-        <p class="text-xs px-2.5 pt-2 md:text-base">รายละเอียดเพิ่มเติม...</p>
+        <p class="text-xs px-2.5 pt-2 md:text-base">การประเมินประสิทธิภาพของผลิตภัณฑ์เครื่องสำอาง...</p>
         <div class="relative flex p-2.5 h-auto">
             <BaseLink :to="`/efficacytest`" class="absolute p-2.5 right-[10px]">ข้อมูลเพิ่มเติม</BaseLink>
         </div>

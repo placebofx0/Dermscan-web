@@ -1,21 +1,21 @@
 <template>
-    <div class="px-[7rem] relative flex mb-[70px] max-w-max w-[100%] object-cover">
+    <div class="px-[7rem] relative flex w-[100%] object-cover">
         <div class=" h-[50rem] w-[145rem] target relative"  >
             <img src="@/assets/images/cover03.jpg"
                 class="absolute object-cover h-[50rem] w-[300rem]
-                target shadow-3xl rounded-md" 
+                target shadow-3xl rounded-[8px]" 
                 v-motion-fade-visible-once
                 :duration="600" />
             <img
                 src="@/assets/images/logo.png"
-                class="flex h-[23rem] absolute top-0 left-0 py-10 px-10 target 
+                class="flex h-[23rem] absolute top-[50px] left-[27px] py-10 px-10 target 
                 drop-shadow-xl"
                 v-motion
                 :initial="{ opacity:0, y: 100 }"
                 :visibleOnce="{ opacity: 1, y: 0 }"
                 :delay="200"
                 :duration="1800"/>
-            <div class="absolute flex w-[1150px] justify-around bottom-[100px] left-0 md:text-7xl">
+            <div class="absolute flex w-[1120px] justify-around bottom-[100px] left-0 md:text-6xl">
                 <div class="text-darkBlue drop-shadow-xl"
                     v-motion
                     :initial="{ opacity:0, y: 100 }"

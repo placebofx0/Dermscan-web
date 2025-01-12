@@ -1,6 +1,7 @@
 <template>
+
     <a href="/safetytest">
-    <div class="shadow-md rounded-md overflow-hidden h-[445px] bg-white"v-motion
+    <div class="shadow-md rounded-md overflow-hidden h-[445px] bg-white text-ellipsis"v-motion
                 :initial="{ opacity:0, y: 100 }"
                 :visibleOnce="{ opacity: 1, y: 0 }"
                 :delay="2200"
@@ -10,10 +11,11 @@
         >
         </img>
         <h4 class="font-semibold text-primary pt-3 px-2.5 md:text-lg">Safety Test</h4>
-        <p class="text-xs px-2.5 pt-2 md:text-base">รายละเอียดเพิ่มเติม...</p>
+        <p class="text-xs px-2.5 pt-2 md:text-base">การทดสอบความปลอดภัยของผลิตภัณฑ์เครื่องสำอาง...</p>
         <div class="relative flex p-2.5 h-auto">
             <BaseLink :to="`/safetytest`" class="absolute p-2.5 right-[10px]">ข้อมูลเพิ่มเติม</BaseLink>
         </div>
     </div>
     </a>
+
 </template>
