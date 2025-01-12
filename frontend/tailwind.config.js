@@ -50,17 +50,20 @@ module.exports = {
         fadeOut: 'fadeOut 1.5s ease-out',
         fadeUp: '1s ease-in-out forwards',
       },
-      media: {
-        
+      dropShadow: {
+        'white': '0 10px 12px rgba(255, 255, 255, 1)',
+        '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
+        '4xl': [
+            '0 35px 35px rgba(0, 0, 0, 0.25)',
+            '0 45px 65px rgba(0, 0, 0, 0.15)'
+        ]
+      },
+      boxShadow: {
+        '3xl': '0 30px 60px -20px rgba(0, 0, 0, 0.3)',
       }
-    },
   },
   plugins: [
-    require('taos/plugin')
+    
   ],
-  safelist: [
-    '!duration-[0ms]',
-    '!delay-[0ms]',
-    'html.js :where([class*="taos:"]:not(.taos-init))'
-  ]
+  }
 }

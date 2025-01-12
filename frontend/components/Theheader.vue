@@ -1,14 +1,15 @@
 <template>
     <header 
-        class="w-full px-6 py-3 bg-gradient-to-r from-white from-3% 
-        via-secondary via-30% 
+        class="w-full px-6 py-3 bg-gradient-to-r from-white from-20% 
+        via-secondary via-50% 
         to-primary to-80% 
         flex space-x-3.5 
         md:justify-between 
         md:flex-col 
         md:items-left 
         md:space-x-0
-        text-white" >
+        text-white
+        shadow-[0_6px_6px_-6px_rgba(0,0,0,0.3)]" >
         <div style="display: flex;">
             <div class="flex-none" >
                 <a href="https://www.dermscanasia.com/">
