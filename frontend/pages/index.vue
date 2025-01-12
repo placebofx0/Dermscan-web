@@ -1,11 +1,13 @@
 <script setup>
 useHead({
-    title:"ศูนย์ทดสอบเครื่องสำอางค์ Dermscan Asia"
+    title:"Dermscan Asia บริการทดสอบเครื่องสำอางทางคลินิก"
 })
 </script>
 <template>
+    
     <Theheader />
             <cover />
-            <service />
+            <TestList />
     <Thefooter />
+
 </template>

@@ -18,10 +18,16 @@ module.exports = {
         quaternary: '#EEE4B1',
         'dark-primary': '#310845',
         'darker-primary': '#230530',
-        grey: '#CCC',
+        lightgrey: '#CCC',
+        grey: '#808080',
+        darkgrey: '#636363',
+        darkergrey: '#4D4D4D',
         red: '#A10019',
-        gold: '#EBC07C',
+        gold: '#CBB57B',
         'dark-red': '#690010',
+        darkBlue: '#051650',
+        blue: '#0A2472',
+        lightBlue: '#123499',
       },
       fontSize: {
         xs: '.75rem',
@@ -51,7 +57,7 @@ module.exports = {
         fadeUp: '1s ease-in-out forwards',
       },
       dropShadow: {
-        'white': '0 10px 12px rgba(255, 255, 255, 1)',
+        'white': '0 3px 10px rgba(255, 255, 255, 1)',
         '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
         '4xl': [
             '0 35px 35px rgba(0, 0, 0, 0.25)',
