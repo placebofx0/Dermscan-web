@@ -66,10 +66,14 @@ module.exports = {
       },
       boxShadow: {
         '3xl': '0 30px 60px -20px rgba(0, 0, 0, 0.3)',
-      }
-  },
+      },
+      screens: {
+        '1440p': '1440px',
+        '2k': '2560px',
+      },
+    },
   plugins: [
-    
+    require('@tailwindcss/container-queries'),
   ],
   }
 }

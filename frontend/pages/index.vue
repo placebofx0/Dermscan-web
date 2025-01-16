@@ -1,4 +1,6 @@
 <script setup>
+import TestList from '~/components/TestList.vue';
+
 useHead({
     title:"Dermscan Asia บริการทดสอบเครื่องสำอางทางคลินิก"
 })
@@ -6,8 +8,8 @@ useHead({
 <template>
     
     <Theheader />
-            <cover />
-            <TestList />
+        <cover />
+        <TestList />
     <Thefooter />
 
 </template>

@@ -1,6 +1,7 @@
 <template>
     <a href="/solartest">
-    <div class="shadow-md rounded-md overflow-hidden h-[445px] bg-white" v-motion
+    <div class="shadow-md rounded-md overflow-hidden h-[445px] bg-white"
+                v-motion
                 :initial="{ opacity:0, y: 100 }"
                 :visibleOnce="{ opacity: 1, y: 0 }"
                 :delay="2600"
