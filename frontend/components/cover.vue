@@ -1,9 +1,10 @@
 <template>
     <div class="flex object-cover">
-        <div class=" h-[12rem] md:h-[36rem] 1440p:h-[50rem] 2xl:h-[68rem] 2k:h-[89rem]
-         w-full relative"  >
+        <div class=" h-[12rem] md:h-[36rem] 1440p:h-[50rem] 2xl:h-[61rem] 2k:h-[84rem]
+         w-full relative"   >
             <img src="@/assets/images/cover03.jpg"
-                class="object-cover absolute 2xl:h-[60rem] 2k:h-[83rem] w-full" 
+                class="object-cover absolute 2xl:h-[60rem] 2k:h-[83rem] w-full
+                " 
                 v-motion-fade-visible-once
                 :duration="600" />
                 <div class="absolute top-0 drop-shadow-lg  m-[1rem] 2k:m-[3rem]
